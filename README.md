@@ -9,7 +9,12 @@ License: CC0: Public Domain
 In order to view the dataset, click the link and download movies_metadata.csv.
 This dataset contains information about a list of around 45,000 movies, including information about their genre, production companies, revenue, languages, spoken languages, release dates, ratings, movie posters, and a synopsis.
 
-## How to use
+
+## How to access the website
+This web project was deployed using a Heroku free server. To interact with the website and the database go to https://movie-time-cs.herokuapp.com/ 
+It is possible you will have to wait one minute before the server starts (this is part of heroku free plan)
+
+## How to use manually
 1. cd into /webapp
 2. run `psql` in the terminal
 3. create movies database in psql using\
